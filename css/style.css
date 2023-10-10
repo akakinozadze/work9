@@ -138,6 +138,7 @@
 }
 .image-sopha {
     border-radius: 12px;
+    width: 100%;
 }
 /* mother section-2 style */
 .mother-section-2 {
@@ -211,6 +212,7 @@
 }
 .shelf-image {
     border-radius: 12px;
+    width: 100%;
 }
 .box-section-3 {
     width:503.5px;
