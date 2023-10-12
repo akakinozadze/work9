@@ -78,8 +78,8 @@
     font-weight: 900;
     font-size: 56px;
     line-height: 60px;
-    letter-spacing: -1;
-    /* font-family: 'Inter'; */
+    letter-spacing: -1px;
+    font-family: 'Inter';
 }
 .box-son-2 {
     width: 490px;
@@ -205,6 +205,8 @@
     width: 1140px;
     height: 428px;
     display: flex;
+    justify-content: space-between;
+   
 }
 .image-shelf {
     width: 503.5px;
@@ -213,12 +215,20 @@
 .shelf-image {
     border-radius: 12px;
     width: 100%;
+    object-fit: cover;
+    height: 100%;
+    
 }
 .box-section-3 {
     width:503.5px;
-    height: 264px;
-    margin-left: 133px;
-    margin-top: 82px;
+    height:264px;
+    margin-top:82px;
+    
+}
+.box-pharagrap6 {
+    width: 503.5px;
+    height: 64px; 
+    
 }
 .pharagrap-6 {
     color: #FFFFFF;
@@ -227,6 +237,20 @@
     font-size: 24px;
     font-weight: 900;
     font-family: 'Inter';
+    
+}
+.div-div-div {
+    margin-bottom: 16px;
+    width: 503.5px;
+    height: 48px;
+}
+.div1-div1-div1 {
+    width: 502px;
+    height: 120px;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;   
 }
 .pharagrap-7 {
     color: #FFFFFF ;
@@ -235,25 +259,25 @@
     font-size: 16px;
     font-weight: 400;
     font-family: 'Inter';
+    
 }
-.main-box-bottom {
-    margin-top: 16px;
+
+.last-last-bottom {
     width: 503.5px;
-    height: 120px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    height: 184px;
+
 }
+
 .pharagrap-section3 {
-    margin-top: 16px;
-    width: 503.5px;
-    height: 48px;
+    width:503.5px;
+    height:48px;
+    
 }
 /*mother-section-4 style  */
 .mother-section-4 {
     width: 1440px;
     height: 564px;
-    background-color: cadetblue;
+
 }
 .baner-image {
     width: 1440px;
@@ -410,7 +434,7 @@
 .son-li2 {
     color: #FFFFFF;
     line-height: 20px;
-    size: 14px;
+   font-size: 14px;
     font-weight: 400;
     font-family: 'Inter';
 }
@@ -433,4 +457,226 @@
     width: 228px;
     height: 40px;
     margin-top: 24px;
+}
+/* hover style */
+.header-h5:hover {
+    transform: scale(2.2);
+    color: crimson
+}
+.navigation-link:hover {
+    color: crimson
+}
+.main-h5:hover {
+    transform: scale(2.2);
+    color: crimson
+}
+.bottom-h6-last:hover {
+    color: crimson;
+    transform: scale(2.2);
+}
+.bottom-box3:hover {
+    transform: scale(1.1);
+}
+/* media style */
+@media (max-width:1024px) {
+    .mother-header {
+        width: 100%;
+    }
+    .mother-section-1 {
+        width: 1024px;
+        height: 862px;
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .box-mother-section-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 960px;
+        height: 348px;
+
+
+    }
+    .box-mother-image {
+        width: 960px;
+        height: 450px;
+      }
+
+      .image-sopha {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .box-son-1 {
+        width: 630px;
+        height: 120px;
+        text-align: center;
+
+    }
+    .box-son-2 {
+        width: 530px;
+        height: 56px;
+        text-align: center;
+        margin-top: 24px;
+    
+    }
+
+    .box-mother-3 {
+        width: 630px;
+        height: 48px;
+        display: flex;
+        justify-content:space-around;
+        margin-top: 20px;
+        align-items: center;
+
+    }
+    .box-son-4 {
+        width: 370px;
+        height: 20px;
+    
+    }
+    .box-son-3 {
+        margin-left: 70px;
+
+    }
+    /* section2 */
+
+    .mother-section-2 {
+        width: 100%;
+        width: 1024px;
+        height: 254px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .box-section-2 {
+        width: 279.33px;
+        height: 176px;
+
+    }
+    .section2-pharagrap-3 {
+        width: 279.33px;
+        height: 120px;
+        
+    }
+    .section-2-pharagrap-1 {
+        width: 279.33px;
+        height: 40px;
+        margin-bottom: 16px;
+
+    }
+    /* section3 */
+    .mother-section-3 {
+        width: 1024px;
+        height: 895px;
+
+    }
+    .mother-box-section3 {
+        width: 1024px;
+        height: 895px;
+        display: flex;
+        flex-direction: column;
+        padding: 32px 32px 64px 32px;
+        
+    }
+    .image-shelf {
+        width: 960px;
+        height: 550px;
+        
+    }
+    .shelf-image {
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+
+       
+    }
+    .box-section-3 {
+        width: 960px;
+        height: 185px;
+        display: flex;
+        
+    }
+    .pharagrap-6 {
+        width: 415.5px;
+        height: 96px;
+    
+    }
+
+    .div1-div1-div1 {
+        width: 415.5px;
+        height: 120px;
+        margin-top: 17px;
+    
+    }
+    .last-last-bottom {
+        width: 415.5px;
+        height: 185px;
+        margin-left: 129px;
+
+
+    }
+    .pharagrap-section3 {
+        width:415.5px;
+        height: 48px;
+ 
+    }
+    /* mother-section-4 */
+    .baner-image {
+        width: 100%;
+        position: relative;
+        width: 1024px;
+    
+    }
+    .tagline {
+        width: 600px;
+        height: 204px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+    }
+    /* footer */
+    .footer-mother {
+        width: 1024px;
+        height: 309px;
+        padding: 45px 32px 45px 32px;
+        background-color: #000000;
+  
+    }
+    .box-mother-footer {
+        width: 960px;
+        height: 219px;
+        position: relative;
+   
+    }
+     .brand {
+        width: 228px;
+        height: 27px;
+    }
+    .bottom-box2-mother {
+        width: 228px;
+        height: 144px;
+        position: absolute;
+        margin-top: 48px;
+        left: 0px;
+        bottom: 0px;
+
+    }
+    .bottom-box3-mother {
+        width: 240px;
+        height: 144px;
+        margin-top: 75px;
+
+    }
+    .bottom-box4-mother {
+        margin-top: 75px;
+        width: 240px;
+        height: 144px;
+    }
+    .bottom-box5-mother {
+        display: none;
+    }
+
 }
